@@ -28,6 +28,8 @@ CREATE TABLE login (
 
 INSERT INTO login (email, senha) VALUES ('usuario@email.com', '123456');
 
+```
+
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/8294c822-a178-40e5-854d-3d454be3ab1e" />
 
 
