@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff5f5;  /* Fundo suave, cor clara */
+  color: #5a1a1a;  /* Texto em tom escuro de vermelho */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#logo img {
+  align-items: center;
+  width: 160px;
+  height: 160px;
+}
+
+#ave img{
+  width: 300px;
+  height: 200px;
+  align-items: center;
+
+}
+
+nav {
+  background-color: #d32f2f;  /* Vermelho forte */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav h1 {
+  font-size: 36px;
+}
+
+nav p {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+header {
+  background-color: #f44336;  /* Vermelho mais suave */
+  padding: 20px 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header-left {
+  width: 70%;
+}
+
+#garca img{
+  width: 500px;
+  height: 300px;
+}
+
+.header-left h2 {
+  font-size: 28px;
+  color: white;
+}
+
+.header-left p {
+  font-size: 16px;
+  color: white;  
+}
+
+aside {
+  width: 34%;
+  background-color: #ffebee;  /* Vermelho claro de fundo para o aside */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+aside h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #d32f2f;
+}
+
+main {
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+
+section {
+  width: 48%;
+  flex: 2;
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+section h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #d32f2f;
+}
+
+section p {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #5a1a1a;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #b71c1c;  /* Vermelho escuro para os itens da lista */
+  flex: 2;
+  background-color: #f2e3e3;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #c62828;  /* Vermelho escuro */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+footer p {
+  font-size: 14px;
+}
